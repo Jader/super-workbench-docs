@@ -9,7 +9,7 @@
 ## 获取部署脚本
 
 ```bash
-$ git clone https://github.com/Jader/SuperWorkbenchDock.git
+$ git clone https://git-whyd.fdccloud.com/huangmy01/SuperWorkbenchDock.git
 ```
 
 ## 调整配置
@@ -69,6 +69,19 @@ $ docker-compose up super-workbench -d
 
 ```bash
 $ docker-compose up extend -d
+```
+
+其他命令
+
+> 可使用 `docker-compose -h` 查看命令，以下为常用命令
+
+```bash
+# 关闭 extend 容器
+$ docker-compose stop extend
+# 开启 extend 容器
+$ docker-compose start extend
+# 列出 compose 中容器
+$ docker-compose ps
 ```
 
 ## 容器说明
